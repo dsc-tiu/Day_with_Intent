@@ -1,5 +1,3 @@
 <resources>
-    <string name="app_name">Intent</string>
-    <string name="press_me">Press Me</string>
-    <string name="type_your_name">type your name</string>
+    <string name="app_name">backup</string>
 </resources>
