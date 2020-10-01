@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/candy_candy"
+    tools:context=".Last">
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="291dp"
+        android:layout_height="116dp"
+        android:text="Your item is Booked.        And your alloted time is 11 AM"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="23dp"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.354"
+        android:layout_gravity="center_horizontal" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="176dp"
+        android:layout_height="46dp"
+        android:background="@drawable/btnbinod5"
+        android:text="back to Main menu"
+        android:textSize="16dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView17"
+        app:layout_constraintVertical_bias="0.398" />
+</androidx.constraintlayout.widget.ConstraintLayout>
