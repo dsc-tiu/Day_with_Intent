@@ -1,2 +1,2 @@
+rootProject.name='Intent'
 include ':app'
-rootProject.name = "backup"

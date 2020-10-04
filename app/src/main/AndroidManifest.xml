@@ -1,31 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.backup">
+    package="com.example.intent">
 
     <application
         android:allowBackup="true"
-        android:icon="@drawable/cartttt"
-        android:label="Shopify"
-        android:roundIcon="@drawable/cartttt"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".cancel"></activity>
-        <activity android:name=".Last" />
-        <activity android:name=".detail" />
-        <activity android:name=".prd_qty" />
-        <activity android:name=".details" />
-        <activity android:name=".product_list" />
-        <activity android:name=".sorted" />
-        <activity android:name=".unsorted" />
-        <activity android:name=".search" />
-        <activity android:name=".shops" />
-        <activity android:name=".singin_c" />
-        <activity android:name=".Signup_c" />
-        <activity android:name=".sk_daily_activity" />
-        <activity android:name=".enter_details" />
-        <activity android:name=".basic_details" />
-        <activity android:name=".Signup_sk" />
-        <activity android:name=".type" />
+        <activity android:name=".WelcomeScreen"></activity>
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -33,10 +17,6 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
-        <meta-data
-            android:name="preloaded_fonts"
-            android:resource="@array/preloaded_fonts" />
     </application>
 
 </manifest>
