@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/candy"
+    tools:context=".detail">
+
+    <Button
+        android:id="@+id/button25"
+        android:layout_width="231dp"
+        android:layout_height="48dp"
+        android:text="Order detail"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:background="@drawable/btnbinod3"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.043" />
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="202dp"
+        android:layout_height="181dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.172"
+        app:srcCompat="@drawable/jamun" />
+
+    <TextView
+        android:id="@+id/textView26"
+        android:layout_width="210dp"
+        android:layout_height="42dp"
+        android:text="Price: 10 Rs."
+        android:textStyle="bold"
+        android:background="#B9FFEB3B"
+        android:textColor="#000000"
+        android:textSize="30sp"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.522"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.499"
+        android:layout_gravity="center_horizontal" />
+
+    <TextView
+        android:id="@+id/textView27"
+        android:layout_width="209dp"
+        android:layout_height="48dp"
+        android:text="Qty: 2"
+        android:textStyle="bold"
+        android:background="#B9FFEB3B"
+        android:textColor="#000000"
+        android:textSize="30sp"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.519"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.426"
+        android:layout_gravity="center_horizontal" />
+
+    <TextView
+        android:id="@+id/button26"
+        android:layout_width="364dp"
+        android:layout_height="43dp"
+        android:text="Your Item is booked"
+        android:textStyle="italic|bold"
+        android:background="#B9FFEB3B"
+        android:textColor="#000000"
+        android:textSize="30sp"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.659"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.578"
+        android:layout_gravity="center_horizontal" />
+
+    <TextView
+        android:id="@+id/button27"
+        android:layout_width="384dp"
+        android:layout_height="52dp"
+        android:background="#B9FFEB3B"
+        android:text="     Select your prefferable time"
+        android:textAlignment="center"
+
+        android:textColor="#000000"
+        android:textSize="28sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.653"
+        android:layout_gravity="center_horizontal" />
+
+    <Button
+        android:id="@+id/button28"
+        android:layout_width="93dp"
+        android:layout_height="59dp"
+        android:background="#9AF80303"
+        android:text="Cancel order"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.879" />
+
+    <Button
+        android:id="@+id/button39"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#9AF80303"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:text="11 am"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.095"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.761" />
+
+    <Button
+        android:id="@+id/button40"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#9AF80303"
+        android:text="2 PM"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.761" />
+
+    <Button
+        android:id="@+id/button41"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#9AF80303"
+        android:text="7 PM"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.891"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.761" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
